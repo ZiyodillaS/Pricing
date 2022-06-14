@@ -1,0 +1,211 @@
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/montserrat-v24-latin-700.woff2') format('woff2'),
+        url('../fonts/montserrat-v24-latin-700.woff') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: 700;
+    background-color: #F2F2F2;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.container {
+    max-width: 1090px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.pricing-section {
+    background-image: url("../img/topback.svg"), url("../img/bottomback.svg");
+    background-repeat: no-repeat;
+    background-position-x: calc(50% + 560px), calc(50% + -560px);
+    background-position-y: calc(0%), calc(50% + 245px);
+}
+
+.pricing-top-box {
+    padding: 71px 0px 103px 0px;
+}
+
+.pricing-top-title {
+    margin: 0px;
+    margin-bottom: 136px;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #6E728E;
+}
+
+.pricing-list {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+/* basic start */
+.basic-box {
+    width: 350px;
+    padding: 31px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px #d4d2f480;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.basic-box-basic {
+    width: 288px;
+    margin: 0 auto;
+}
+
+.basic-title {
+    margin: 0px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #6E728E;
+}
+
+.basic-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: 32px;
+    font-size: 72px;
+    line-height: 71px;
+    letter-spacing: -2.16px;
+    color: #4A4D60;
+}
+
+.basic-tiny {
+    margin-right: 8px;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: -1.2px;
+    color: #4A4D60;
+}
+
+.basic-list {
+    margin-bottom: 32px;
+    padding: 0px;
+    width: 288px;
+    list-style-type: none;
+}
+
+.basic-item {
+    border-top: 1px solid #6e728e40;
+}
+
+.basic-item:nth-child(3) {
+    border-bottom: 1px solid #6e728e40;
+}
+
+.basic-item-text {
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6E728E;
+}
+
+.basic-item-tiny-box {
+    display: flex;
+    justify-content: center;
+}
+
+.basic-link {
+    padding: 14px 66px;
+    text-decoration: none;
+    background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+    border-radius: 6px;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.39286px;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+}
+
+.basic-link:hover {
+    border: 1px solid #6D72DE;
+    border-radius: 6px;
+    color: #6D72DE;
+    background: #fff;
+}
+
+/* basic end */
+.professional-box {
+    width: 350px;
+    padding: 54px 31px;
+    background: linear-gradient(135.06deg, #A2A7F0 -0.05%, #696EDD 100.05%);
+    box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+    border-radius: 10px;
+}
+
+.professional-title {
+    color: #FFFFFF;
+}
+
+.professional-text {
+    color: #FFFFFF;
+}
+
+.professional-tiny {
+    color: #FFFFFF;
+}
+
+.professional-list {
+    width: 288px;
+}
+
+.professional-item {
+    border-top: 1px solid #ffffff40;
+}
+
+.professional-link {
+    padding: 14px 66px;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.39286px;
+    color: #6D72DE;
+    border: 1px solid transparent;
+}
+
+.professional-link:hover {
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.39286px;
+    color: #FFFFFF;
+    background: linear-gradient(135deg, #A2A7F0 0.05%, #696EDD 100.05%);
+    box-shadow: 0px 20px 40px #d4d2f480;
+    border-radius: 10px;
+}
